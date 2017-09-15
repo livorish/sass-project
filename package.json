@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "npm run gulp && concurrently \"npm run gulp-watch\" \"npm run lite\"", 
+    "start": "npm run gulp && concurrently \"npm run gulp-watch\" \"npm run lite\" ",
     "lite": "lite-server",
     "gulp": "gulp",
     "gulp-watch": "gulp watch"
